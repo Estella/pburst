@@ -1,0 +1,46 @@
+             ____                  __ 
+      ____  / __ )__  ____________/ /_
+     / __ \/ __  / / / / ___/ ___/ __/
+    / /_/ / /_/ / /_/ / /  (__  ) /_  
+   / .___/_____/\__,_/_/  /____/\__/  
+  /_/  Gregory A. Carter
+       Dynamic Networking Solutions
+
+###############################################################################
+-------------------------------------------------------------------------------
+
+Introduction
+
+	pBurst is an Internet Relay Chat Protocol Burster and debugger for IRC
+	server to server protocol. It's designed to assist developers of IRC 
+        services and daemon in their ability to code efficient and stable 
+        packages.
+
+Installation
+
+	Step 1 (compiling)
+
+	Perform the following unix commands:
+
+	./configure
+	make install
+	mkdir logs
+	cp etc/example.conf etc/pburst.conf
+
+	Step 2 (configuring)
+
+	Edit etc/pburst.conf with your favorite text editor, pico is usually
+        a good choice but for you die hards I guess vi will work.
+
+	Step 3 (running)
+
+	Perform the following unix commands:
+
+	./pBurst -c etc/pburst.conf
+
+	Once pBurst is run you may type /HELP at any time for a list of
+	available commands.
+
+Contributors
+
+	Kevin L. Mitchell <klmitch@mit.edu>

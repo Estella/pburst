@@ -1,0 +1,11 @@
+makefile
+Makefile
+config.log
+config.h
+stamp-h
+config.status
+config.cache
+autom4te.cache
+include/defs.h
+include/stamp-h1
+zBounce/defs.h
